@@ -6,6 +6,12 @@ header {
     padding: 10px 20px;
 }
 
+/* Centra el texto del header y la barra de botones */
+header > div {
+    flex: 1;
+    text-align: center;
+}
+
 .logo-pequeno {
     width: 150px;
     height: auto;
@@ -46,6 +52,13 @@ header {
 .boton-nav:hover {
     background-color: #F8D7E8;
     color: #79558E;
+}
+
+/* Estado del botón de la página actual (activo) */
+.boton-nav.activo {
+    background-color: #79558E;
+    color: #FFF7FB;
+    font-weight: bold;
 }
 
 /* Contenedor para alinear las imágenes de adopción en horizontal */
