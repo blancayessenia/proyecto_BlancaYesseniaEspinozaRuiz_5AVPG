@@ -1,1 +1,0 @@
-# proyecto_BlancaYesseniaEspinozaRuiz_5AVPG
